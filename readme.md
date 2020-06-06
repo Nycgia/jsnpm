@@ -50,3 +50,16 @@ npm list -g --depth 0
 ```bash
 npm i eslint -O
 ```
+## Simular instalación
+```bash
+npm i react --dry-run
+```
+## Forzar instalación
+```bash
+npm i webpack -f
+npm i webpack --force
+```
+## Instalar una versión específica
+```bash
+npm i json-server@0.15.0
+```
