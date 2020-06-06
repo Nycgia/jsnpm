@@ -10,6 +10,7 @@
   "author": "Pedro Muñoz <pmunoz@protonmail.com>",
   "license": "MIT",
   "dependencies": {
+    "json-server": "^0.15.1",
     "moment": "^2.26.0"
   },
   "devDependencies": {

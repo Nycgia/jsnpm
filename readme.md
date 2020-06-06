@@ -63,3 +63,26 @@ npm i webpack --force
 ```bash
 npm i json-server@0.15.0
 ```
+# Actualización
+## Listar actualizaciones del proyecto
+```bash
+npm outdate
+npm outdate --dd
+```
+## Actualizar un package
+```bash
+npm i json-server@latest
+```
+## Actualizar todos los paquetes
+```bash
+npm update
+```
+# Desintalación
+## Quitar de carpeta node_modules y package.json
+```bash
+npm uninstall json-server
+```
+## Quitar solo de carpeta node_modules
+```bash
+npm uninstall json-server --no-save
+```
