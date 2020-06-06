@@ -21,3 +21,32 @@ npm set init.author.name "Pedro Muñoz"
 npm set init.author.email "pmunozb@protonmail.com"
 npm set init.license "MIT"
 ```
+
+En caso de querer eliminar una variable se usa:
+```bash
+npm config delete init.license
+```
+# Instalación de dependencias
+## Producción
+```bash
+npm install moment --save
+npm i moment -S
+npm i moment
+```
+## Desarrollo
+```bash
+npm install moment --save-dev
+npm i moment -D
+```
+## Global
+```bash
+npm i -g nodemon
+```
+Listar paquetes globales
+```bash
+npm list -g --depth 0
+```
+## Opcional
+```bash
+npm i eslint -O
+```
