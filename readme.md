@@ -86,3 +86,51 @@ npm uninstall json-server
 ```bash
 npm uninstall json-server --no-save
 ```
+# Símbolos
+## Versionamiento
+```
+3.9.2
+
+major . minor . patch
+
+Major: Cambios mayores que pueden romper la compatiblidad.
+Minor: Cambios menores, se refieren a nuevas funcionalidades, generalmente la compatibilidad se mantiene.
+Patch: Corrección de errores.
+```
+## ^ (Caret, Acento circunflejo)
+El símbolo indica que este paquete puede ser actualizado en su version minor y patch.
+```json
+"dependencies": {
+    "json-server": "^0.15.1"
+}
+```
+## ~ (Tilde, virgulilla)
+El símbolo indica que este paquete solo puede ser actualizado en su version patch.
+```json
+"dependencies": {
+    "json-server": "~0.15.1"
+}
+```
+## Versión exacta
+En ocasiones, es requerido tener una versión exacta del paquete, en ese caso, no se utilizan símbolos:
+```json
+"dependencies": {
+    "json-server": "0.15.1"
+}
+```
+## Versión mayor o mayor e igual
+Si se requiere mantener que el paquete sea mayor a una versión o mayor e igual se utiliza:
+```json
+"dependencies": {
+    "json-server": ">0.15.1",
+    "moment": ">=2.26.0"
+}
+```
+## Versión menor o menor e igual
+Si se requiere mantener que el paquete sea menor a una versión o menor e igual se utiliza:
+```json
+"dependencies": {
+    "json-server": "<0.15.1",
+    "moment": "<=2.26.0"
+}
+```
