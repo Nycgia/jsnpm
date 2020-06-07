@@ -134,3 +134,21 @@ Si se requiere mantener que el paquete sea menor a una versión o menor e igual 
     "moment": "<=2.26.0"
 }
 ```
+# Caché
+## Verificar datos en caché
+```bash
+npm cache verify
+```
+## Eliminar caché
+```bash
+npm cache clean --force
+```
+# Seguridad
+## Verificar
+```bash
+npm audit
+```
+## Corregir errores
+```bash
+npm audit fix
+```
