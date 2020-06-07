@@ -152,3 +152,26 @@ npm audit
 ```bash
 npm audit fix
 ```
+# Publicar repositorio
+## Agregar usuario
+```bash
+npm adduser
+```
+## Publicar repositorio
+```bash
+npm publish
+```
+## Cambiar versión de paquete
+```bash
+npm version mahjor
+npm version minor
+npm version patch
+```
+## Linkear paquete para uso
+```bash
+npm link <name>
+```
+## Instalar local
+```bash
+npm install ./npm-package-name
+```
